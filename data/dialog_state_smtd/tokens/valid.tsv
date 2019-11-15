@@ -1,0 +1,902 @@
+0	which is closer in distance?	distance
+1	please send me the quickest way to get there, thank you!	poi
+2	i need directions to my house and avoid all heavy traffic	poi&traffic_info
+3	yes i have to go home. 	poi
+4	will there be snow on wednesday in oakland?	date&location&weather_attribute
+5	give me a location to a local parking lot	distance&poi_type
+6	where's the nearest produce stand	distance&poi
+7	could you please show me the fastest route to go there?	distance
+8	schedule conference with vice president. 	event&party
+9	schedule this conference for later this week please, at 9 am with my vice president. 	date&event&party&time
+10	i want it scheduled for wednesday.	date
+11	check today's forecast for rain	date&weather_attribute
+12	oakland for today.	date&location&weather_attribute
+13	find a pizza restaurant that is open near me.	distance&poi_type
+14	what has the least traffic?	traffic_info
+15	is it going to be foggy in compton in the next 7 days?	date&location&weather_attribute
+16	car i'm desiring to eat chinese food!	poi_type
+17	which is closer?	distance
+18	what's the forecast for the city this week	date
+19	in exeter, will there be a blizzard this week?	date&location&weather_attribute
+20	what is the temperature outside	weather_attribute
+21	san mateo right now.	date&location
+22	take me to the nearest chinese restaurant	distance&poi
+23	find some places downtown where i can park	poi_type
+24	is it going to be cloudy this week	date&weather_attribute
+25	san mateo.	location
+26	will it be frost in san jose tomorrow?	date&location&weather_attribute
+27	what hospitals are here?	poi_type
+28	is the traffic bad to get there?	traffic_info
+29	ok sounds good. set the gps for there please.	poi
+30	will it rain next week	date&weather_attribute
+31	san jose	location
+32	car, set a reminder for a conference at 6 pm. i need it on the 1st with my boss.	date&event&party&time
+33	what is the weather in new york city	location
+34	will it hail anytime soon?	location&weather_attribute
+35	car i'm desiring to eat at some chinese restaurant: is there anything within 2 miles?	distance&poi_type
+36	that's great! please send me the route on screen and avoid all heavy traffic	address&traffic_info
+37	please make an appointment on tuesday for me to see the doctor	date&event
+38	when is my optometrist appointment? 	event
+39	when is my scheduled appointment for my lab	event
+40	give me saturday's weather report for menlo park	date&location
+41	schedule a meeting for today	date&event
+42	tell me the weather for this week	date
+43	i am in durham.	date&location
+44	so this week in durham will it be humid at all?	date&location&weather_attribute
+45	please tell me the weather for today and what the weather will be tomorrow	date
+46	in brentwood, will it be cloudy?	location&weather_attribute
+47	give me directions to the closest chinese food restaurant	distance&poi_type
+48	pick a route with no traffic and let's go there!	traffic_info
+49	when is my football activity and who is attending?	event
+50	please check the weather for this week	date
+51	will it rain in san mateo?	location&weather_attribute
+52	what time is my tennis match for this saturday	date&event
+53	that would be great!	event
+54	will it be misty in seattle at any point in the next 7 day period? 	date&location&weather_attribute
+55	is it going to be foggy in camarillo this weekend?	date&location&weather_attribute
+56	what is the temperature in danville this week? 	date&location&weather_attribute
+57	can you find out the parties attending and the date for the day i take my medicine?	event
+58	find me a place where i can buy coffee or tea	poi_type
+59	is it closest to my current location?	distance
+60	yes, please, just pick a route to avoid all heavy traffic	traffic_info
+61	set a reminder for 10	agenda&time
+62	set the reminder for 10 am.	time
+63	i need a reminder about a lab appointment. 	event
+64	please set a reminder for my lab appointment	event
+65	set it at 1 pm on december 10th, with marie. 	date&event&party&time
+66	schedule a football activity with tom on the 4th at 6pm.	date&event&party&time
+67	what is the time and date of my football activity?	event
+68	the one on sunday.	date&event
+69	11 am	time
+70	it's going to be raining so i have to drive slow	weather_attribute
+71	mountain view.	location
+72	is it humid over the next two days	date&weather_attribute
+73	new york. 	location
+74	confirm meeting for 4:50 pm on the 12th	date&event&time
+75	what is the forecast for today's weather	date
+76	find out if it is going to be raining in los angeles today please. 	date&location&weather_attribute
+77	whats the two day forecast for new york, does it say it will be hot?	date&location&weather_attribute
+78	what time is my meeting tomorrow and what is the agenda	event
+79	find me a hotel somewhere near my current location	distance&poi_type
+80	what is the weather going to be like tomorrow show me the 7 day forecast	date&weather_attribute
+81	seattle	location
+82	remind me about my doctor's appointment at 1pm on thursday, with tom	date&event&party&time
+83	thursday, at 1pm. 	date&time
+84	what is the date and time of dinner?	event
+85	schedule a reminder to take medicine with my brother on friday at 3pm.	agenda&date&event&party&time
+86	schedule a swimming activity with ana for the 1st at 2pm.	date&event&party&time
+87	i need tea.	poi_type
+88	remind me to take my pills	event
+89	what gas stations are here?	poi_type
+90	that's good! please pick the quickest route to get there and avoid all heavy traffic!	distance&traffic_info
+91	what's the temperature going to be like on friday	date&weather_attribute
+92	alhambra	location
+93	and the temperature?	weather_attribute
+94	give me directions to the closest grocery store	poi_type
+95	i need the one that avoids all heavy traffic.	traffic_info
+96	what will the weather in fresno be in the next 48 hours?	date&location
+97	where is home 	poi&poi_type
+98	okay, how far away am i and send me the quickest route	distance
+99	thank you very much car!	distance&poi&poi_type
+100	where is the closest grocery store	distance&poi_type
+101	safeway.	poi
+102	give me directions to the closest grocery store	distance&poi_type
+103	what is the next closest location?	distance
+104	ok, well make a route to the willows market then, try to avoid the car accident. 	distance&poi&poi_type
+105	where does my friend live?	poi
+106	i was thinking about something that happened to jill yesterday, long story.. please pick a quick route to get there, thank you!	distance
+107	what is the highest temperature in brentwood over the next two days?	date&location&weather_attribute
+108	set reminder for dinner at 11am with mom on friday	date&event&party&time
+109	what time is dinner tonight	event
+110	what are the directions to the closest parking garage	distance&poi_type
+111	give me directions to the nearest shopping center	distance&poi_type
+112	find the address to a hospital or clinic.	poi_type
+113	is it going to snow this week	date&weather_attribute
+114	corona	location
+115	i need a reminder for dinner. 	event
+116	set my reminder for dinner at 7 pm, for the 6th of this month with my beloved marie. 	date&event&party&time
+117	will it be warm in compton on wednesday?	date&location&weather_attribute
+118	set me a reminder for football activity at 1pm, this month on the 11th, with marie. 	date&event&party&time
+119	set an appointment for swimming	event
+120	i need gas.	poi_type
+121	can i have some route details? i would like to avoid any heavy traffic there	traffic_info
+122	take me to my friend's house	poi&poi_type
+123	what about the address of my home.	address&poi&poi_type
+124	where can i go shopping?	poi_type
+125	does the forecast call for snow today	date&weather_attribute
+126	cleveland. 	location
+127	get me directions to a local cafe	distance&poi_type
+128	yes.	poi
+129	schedule conference with sales team on the 11th of this month 9am 	date&event&party&time
+130	what time is my doctor apartment and who is it with?	event&party
+131	the one on wednesday.	date&event
+132	and how about the one on the 5th?	date&event
+133	what's the weather forecast for today and tomorrow	date
+134	los angeles	location
+135	give me directions to the nearest shopping mall	distance&poi_type
+136	yes please that sounds perfect. 	poi
+137	find me the quickest route to the grocery store. 	poi_type&traffic_info
+138	ok, please give me the address and directions via the quickest route. 	distance&poi&poi_type&traffic_info
+139	give me the forecast for the next 7 days	date
+140	downtown chicago	location
+141	car, find the date and time for my tennis activity.	event
+142	schedule meeting	event
+143	i need it for saturday at 1pm with sales team to go over budget.	agenda&event&party&time
+144	what is the weather going to be today and tomorrow	date
+145	i want to know if it will drizzle in durham	date&location&weather_attribute
+146	check forecast for today and tomorrow	date
+147	mountain view	location
+148	what's the weather going to be like this week	date
+149	will it be hot in brentwood?	location
+150	where is a nearby parking garage?	distance&poi_type
+151	will there be drizzle in redwood city this weekend?	date&location&weather_attribute
+152	car please send me the fastest route to go back home	distance&poi_type
+153	please send me the fastest route on screen and let's go there, thank you!	distance&poi
+154	make an appointment for the doctor on the 12th	date&event
+155	set it at 7 pm please. 	time
+156	what is the temperature for the next 7 days weather forecast	date
+157	compton.	location
+158	what will be the highest temperature on friday in mountain view?	date&location&weather_attribute
+159	remind me about my yoga activity with mother on the 15th of this month, it is at 3 pm.	date&event&party&time
+160	schedule it for 3 pm.	event&time
+161	what time is my next tennis activity and who will be attending?	event
+162	car i need a hospital, please send me a quick route to the one near me in the direction we're driving	distance&poi_type
+163	please pick a quick route and let's go there, thank you!	address&poi
+164	schedule a swimming activity on monday the 1st with my father at 4pm.	date&event&party&time
+165	will there be clear skies in danville on thursday?	date&location&weather_attribute
+166	is it gonna snow in durham during the week?	date&location&weather_attribute
+167	what is the weather like this week	date
+168	cleveland.	location
+169	will it be dry in new york on wednesday?	date&location&weather_attribute
+170	check weather forecast for seattle	location
+171	please tell me the forecast in seattle this week.	date&location
+172	find me a chinese restaurant with a no traffic route. 	poi_type&traffic_info
+173	please pick a route with no traffic to get there, thanks!	traffic_info
+174	can you find me a chinese restaurant that is within 5 miles?	distance&poi_type
+175	how is the traffic to there?	traffic_info
+176	what is the weather forecast for the weekend	date
+177	will it be humid in fresno during the next week?	date&location&weather_attribute
+178	find out the parties joining me and date for my doctor appointment.	event
+179	when's my tennis match	event&time
+180	when is my dentist appointment, the date and time?	event
+181	will it rain next week	date&weather_attribute
+182	los angeles, please	location
+183	will it be warm in grand rapids on saturday?	date&location&weather_attribute
+184	i need directions to a local fast food restaurant please	distance&poi&poi_type
+185	please give me the address and directions to whichever restaurant is on a route where i can avoid heavy traffic. 	traffic_info
+186	get me the weather report for this week	date
+187	what will be the temperature in manhattan on wednesday?	date&location&weather_attribute
+188	tell me all the events and meetings scheduled on my calendar for today	event
+189	what's the weather like today and tomorrow	date
+190	i need to know if it is going to be foggy in fresno today and tomorrow car.	date&location&weather_attribute
+191	will there be drizzle in cleveland tomorrow?	date&location&weather_attribute
+192	tell me the weather report in durham for this week	date&location
+193	the entire week.	date
+194	schedule a conference with the vice president on the 5th at 11am.	date&event&party&time
+195	when is my dentist appointment	event
+196	please give me the address and directions via the fastest route to a pizza restaurant within 4 miles of me. 	distance&poi_type&traffic_info
+197	ok, please direct me there via the fastest route. 	distance
+198	pick a route with no traffic and let's go there, thank you!	poi&traffic_info
+199	yes, patience, i need to get there anyway.. thank you car, send the info on my screen please!	address&poi&poi_type&traffic_info
+200	car i need to go back home, it's in the area, please pick a route with no traffic	poi_type&traffic_info
+201	what is my address?	address
+202	set gps for a route home with zero to no traffic.	poi_type&traffic_info
+203	where can i get tea?	poi
+204	yes.	poi
+205	is it going to be overcast or cloudy at all any day this week	date&weather_attribute
+206	i need this forecast information for the city of carson. 	location
+207	i need shopping center. 	poi
+208	yes, please.	address&distance&poi_type
+209	grand rapids.	location
+210	schedule a football activity with ana for today at 11am.	date&event&party&time
+211	make a note that at 5 pm on the 12th i have yoga	agenda&date&event&time
+212	what is the weather like right now	date
+213	please check exeter: is it humid?	location&weather_attribute
+214	will it be raining this week in redwood city?	date&location&weather_attribute
+215	what is the weather going to be like tomorrow show me the 7 day forecast	date
+216	fresno: there will be hail tomorrow?	date&location&weather_attribute
+217	so no hail tomorrow in fresno?	date&location&weather_attribute
+218	what is the weather like in the city	location
+219	what is the weather in compton on sunday?	date&location
+220	what's the temperature going to be like today and tomorrow	date&weather_attribute
+221	seattle	location
+222	is there a parking garage within 2 miles?	distance&poi_type
+223	that's great! please pick the quickest route and send me the address on screen, thank you!	distance
+224	find starbucks	poi
+225	is is the quickest one available? i really need my morning coffee!	distance
+226	where is the starbucks?	distance&poi&poi_type&traffic_info
+227	will it be foggy on tuesday in redwood city?	date&location&weather_attribute
+228	directions to the mall	poi_type
+229	thank you car, please pick the fastest route	poi&traffic_info
+230	what time do i go to yoga and who is going with me?	event
+231	check the date and time of my doctor's appointment	event
+232	car i need to get to a gas station, please show me the nearest one	distance&poi_type
+233	please pick the fastest route to get there	distance
+234	i want to find the agenda, location, and time for my meeting.	event
+235	take me to the parking garage closest to my destination	distance&poi_type
+236	schedule a swimming activity with jon for december 10th at 3pm.	date&event&party&time
+237	i would like to know who is attending my meeting and when it is. 	event
+238	is it going to snow this week	date&weather_attribute
+239	mountain view, please!	location
+240	i need to schedule a doctor's appointment	event
+241	it's at 1 pm today.	date&time
+242	show me the nearest shopping mall	distance&poi_type
+243	direction please.	address&distance&poi&poi_type
+244	car i need a rest stop in the area, please pick something and avoid all heavy traffic	poi&traffic_info
+245	can you find out for me the date and parties attending my dinner?	event
+246	look up san francisco's two day weather info to see if it will be warm	date&location&weather_attribute
+247	i need to find out the date and time for my lab appointment. 	event
+248	is it going to rain in the next 7 days	date&weather_attribute
+249	in san francisco	location
+250	what's the weather like today and tomorrow	date
+251	seatlle, i want to know if it will be foggy today and tomorrow.	date&location&weather_attribute
+252	show me the weather for the next 7 days	date
+253	will it be humid in compton?	location&weather_attribute
+254	where does my friend live?	poi_type
+255	remind me to watch the football game on the 1st	date&event
+256	at 2 pm please.	time
+257	check doctor's appointment date	event
+258	give me weather forecast for today	date
+259	downtown chicago, please	date&location&weather_attribute
+260	which temperature there will be in alhambra on thursday?	date&location&weather_attribute
+261	i am in durham.	location
+262	will there be a blizzard?	location&weather_attribute
+263	what's the weather like in new york	location
+264	i need to know about friday please. 	date
+265	schedule taking medicine at 6 pm on the 13th of next month with my brother. 	date&event&party&time
+266	is it cloudy in cleveland today?	date&location&weather_attribute
+267	i need the closest hospital. 	distance&poi_type
+268	yes, please give me directions via the route with no traffic.	poi&traffic_info
+269	info about football please. 	event
+270	take me to the nearest grocery store	distance&poi_type
+271	yes.	poi
+272	thank you car, pick a route with no traffic and let's go there!	poi&traffic_info
+273	where is the nearest grocery store with no traffic?	poi
+274	yes please set the gps for there. 	address&distance&poi&poi_type&traffic_info
+275	is it currently hailing in manhattan? 	date&location&weather_attribute
+276	is it going to be cloudy this week	date&weather_attribute
+277	boston	date&location&weather_attribute
+278	check weather for new york city	location
+279	i need current weather data about new york, specifically information about the temperature. 	date&location&weather_attribute
+280	what's the temperature going to be like this week	date&weather_attribute
+281	i'm in manhattan	date&location&weather_attribute
+282	set a reminder for me to take my medicine at 9am on sunday with by brother frank.	date&event&party&time
+283	i need to know my conference agenda, date and who is attending. 	event
+284	where does my friend live?	poi_type
+285	get me directions to the nearest starbucks	poi
+286	any coffee shops locally?	distance&poi_type
+287	ok, please give me the directions via the fastest route. 	traffic_info
+288	where can i find a parking garage?	poi_type
+289	is that the quickest route?	distance
+290	which day is my appointment on	event
+291	will there be clear skies in fresno on wednesday?	date&location&weather_attribute
+292	directions to the grocery store	poi_type
+293	ok, please give me directions via the quickest route. 	traffic_info
+294	what time is my next dinner event and who will be attending?	event
+295	schedule swimming time	event
+296	is there a chance of snow in this weeks weather forecast	date
+297	san mateo, please	date&location&weather_attribute
+298	what is the current temperature	date&weather_attribute
+299	alameda	location
+300	will there be clear skies in san francisco on friday?	date&location&weather_attribute
+301	find me a hotel somewhere near my current location	distance&poi_type
+302	can you send me the fastest route to go there?	address&distance&poi&poi_type&traffic_info
+303	what is the weather going to be like today and tomorrow	date
+304	los angeles	location
+305	find out if there is hail outside right now, for seattle please. 	date&location&weather_attribute
+306	will it snow this week	date&weather_attribute
+307	alameda	date&location&weather_attribute
+308	remind me to watch football on sunday	event
+309	2 pm 	time
+310	schedule a dentist appointment at 3 next month on the 12th	date&event&time
+311	can you confirm you set the dentist appointment for next month on the 12th?	date&event&time
+312	where is the closest tea house?	distance&poi_type
+313	sounds good, let's get going. 	poi
+314	will you find me the fastest route to a rest stop	poi_type&traffic_info
+315	pick the fastest route please, thank you car!	address&distance&poi&poi_type&traffic_info
+316	who's showing up for tennis, and what's the date on that?	event
+317	camarillo, please. tell me if it will be foggy on friday	date&location&weather_attribute
+318	will it snow in fresno during this week?	date&location&weather_attribute
+319	what day is the football game	event
+320	check my agenda for my meetings	event
+321	okay, i want to find out what time my meeting is and where and what day please. 	event
+322	will it be cloudy in inglewood next week?	date&location&weather_attribute
+323	when am i going swimming?	event
+324	navigate home	poi
+325	schedule a swimming activity with marie on sunday at 6pm.	date&event&party&time
+326	find the nearest hotel	distance&poi_type
+327	yes sounds great. 	poi
+328	set my gps for the quickest route possible please.	distance
+329	what is a quick route home?	distance&poi&poi_type
+330	please direct me via the quickest possible route. 	distance
+331	will the weather be cloudy next week	date&weather_attribute
+332	grand rapids	location
+333	where is there a parking garage?	poi_type
+334	what time is my doctor's appointment and who is going with me?	event
+335	assistant schedule an appointment at the dentist, 9am of the 12th of current month. bring martha with me	date&event&party&time
+336	set a reminder for my swimming plans	event
+337	at 11 am on friday	time
+338	what is the agenda of my meeting today	date&event
+339	where can i get tea?	poi_type
+340	which one is the quickest, is there any traffic?	distance&poi_type&traffic_info
+341	yes teavana please	poi
+342	is it gonna be any blizzard on tuesday in alhambra?	date&location&weather_attribute
+343	is it gonna be foggy in exeter on next week?	date&location&weather_attribute
+344	give me directions to the local starbucks	poi
+345	yes, please! which one is its address? there is any quick route available?	address&distance&poi
+346	what's the highest temperature going to be in cleveland this week?	date&location&weather_attribute
+347	i need a route to the shopping center with no traffic. 	poi_type&traffic_info
+348	ouch, patience, please pick the route with least traffic and let's go there, thank you!	poi&traffic_info
+349	find out the date and parties attending for my optometrist appointment. 	event
+350	find a coffee place	poi_type
+351	sounds great, let's go there. 	address&poi&poi_type
+352	can you give me the weather this week for new york city	date&location
+353	i need the quickest route to a pizza restaurant near me.	distance&poi_type
+354	where are there chinese restaurants around?	poi_type
+355	whichever is the fastest to get to.	distance
+356	what is the rest stop with the quickest route nearby?	poi_type
+357	what is the address?	address&distance&poi&poi_type
+358	is there a quick route to reach?	distance
+359	i want to know if it will be stormy in manhattan over the next 7 days	date&location&weather_attribute
+360	please give me the address and directions via a route with no traffic to the nearest pizza restaurant.	distance&poi_type&traffic_info
+361	this week will it be warm in los angeles?	date&location&weather_attribute
+362	find location and address to home that is nearest me.	poi_type
+363	what time is my dinner reservation	event&time
+364	please give me the address and directions via a route that avoids all heavy traffic to a hospital around me. 	distance&poi_type&traffic_info
+365	set an appointment to swim next week	event
+366	thursday at 10 am please. 	time
+367	i need to find out the parties attending and the date for my lab appointment, thanks. 	event
+368	find me the nearest gas station. 	distance&poi_type
+369	what is the weather forecast in cleveland for thursday?	date&location
+370	need the quickest route to home.	distance&poi&poi_type
+371	is it going to be hot this weekend in boston?	date&location&weather_attribute
+372	i was asking about boston not seattle, do you have information for boston, too?	date&location&weather_attribute
+373	schedule a swimming activity with my brother for the 7th at 11am.	date&event&party&time
+374	where is the nearby shopping center?	distance&poi_type
+375	please pick the quickest route to go there and send me the info on screen, thanks!	traffic_info
+376	what is the date and location for my conference and who is attending?	event
+377	the one at 6 pm please.	event&time
+378	who will be at the meeting friday	date&event
+379	will it be windy in los angeles on sunday?	date&location&weather_attribute
+380	what time is my lab appointment for	event
+381	schedule a dentist appointment on the 8th at 1 pm. ana will be joining you.	date&event&party&time
+382	i need a rest stop within a 2 mile radius. 	distance&poi_type
+383	set gps for shortest route.	distance
+384	when am i playing tennis	event
+385	what date is my dentist appointment and who is attending?	event
+386	what is the date of my yoga activity and who will be attending it?	event
+387	schedule taking medicine with martha at 5pm next wednesday.	date&event&party&time
+388	is the weather cloudy right now	date&weather_attribute
+389	fresno	location
+390	give me the location for the nearest starbucks	poi&traffic_info
+391	yes please.	poi
+392	okay thank you.	address&distance&poi&poi_type
+393	find directions to the nearest starbucks	distance&poi
+394	let's go at cafe venetia please, send the address on my screen and pich the quickest route	distance&poi
+395	yes. set gps for the quickest route now.	distance&poi
+396	is it supposed to snow today	date&weather_attribute
+397	i want to know about corona please. 	date&location&weather_attribute
+398	give me directions to a place to sleep	poi_type
+399	yes, please, pick a quick route!	poi
+400	i'm desiring to eat at some chinese restaurant, is there anything in this local area?	distance&poi_type
+401	yes, please, and pick a route to avoid all heavy traffic	poi&traffic_info
+402	which days are rain forecasted	weather_attribute
+403	tell me if it is raining in oakland right now.	date&location&weather_attribute
+404	schedule a conference at 6 pm on the tenth with sales team.	date&event&party&time
+405	please set a reminder to take medicine at 7pm tuesday with ana.	event&party&time
+406	find me a gas station.	poi_type
+407	are there any other locations that will take less time to reach?	distance
+408	schedule a reminder to take medicine with martha for saturday at 2pm.	date&event&party&time
+409	are there any chinese restaurants nearby?	distance&poi_type
+410	which one has the fastest route?	distance
+411	how long will it take to get there?	distance
+412	where is the nearest hospital that we can get to quick?	distance&poi_type&traffic_info
+413	give me the location for the nearest starbucks	distance&poi
+414	at 4:50 pm the 12th of this month. 	date&time
+415	please tell me the location, time and parties that are attending my meeting	event
+416	what's the current weather in san francisco?	date&location
+417	what time is the doctors appointment and who is attending?	event
+418	set a reminder for the conference. 	event
+419	it is on august 14th at 4pm	date&event&time
+420	make sure you add the executive team to that reminder. 	party
+421	car, find out the time and parties attending for my tennis activity. 	event
+422	what's the temperature going to be this week	date&weather_attribute
+423	san jose please.	location
+424	how is gonna be the weather forecast in san mateo for the next weekend?	date&location
+425	what's the temperature going to be like this week	date&weather_attribute
+426	los angeles	date&location&weather_attribute
+427	find out when my next conferences	event
+428	please check the weather for this week	date
+429	will it be stormy in camarillo?	location&weather_attribute
+430	schedule a conference with the boss for this month on the 5th at 1pm.	date&event&party&time
+431	schedule a tennis activity with martha for friday at 4pm.	date&event&party&time
+432	will it be windy in atherton in the next two days?	date&location&weather_attribute
+433	where is a nearby rest stop?	distance&poi_type
+434	yes, please give me directions via the fastest route. 	poi
+435	hi car i would like to schedule a reminder for my tennis activity at 5pm on the tenth with jon	date&event&party&time
+436	what is the address of my friend's house?	poi_type
+437	get me the address to my friends house nearest my current location.	distance&poi_type
+438	set the gps for the quickest route possible.	distance
+439	i need to find out some info for my optometrist appointment, the date and time please. 	event
+440	get me directions to the mall	poi_type
+441	let's go at ravenswood shopping center and pick a route with no traffic please!	poi&traffic_info
+442	is there a grocery store within 3 miles of me?	distance&poi_type
+443	ok, please give me directions via the route with least traffic.	distance&poi&poi_type&traffic_info
+444	find out if it's supposed to rain	weather_attribute
+445	redwood city.	location
+446	show me the nearby hospital	distance&poi_type
+447	does stanford express care have heavy traffic nearby?	poi&traffic_info
+448	any other local hospital's with no heavy traffic?	poi&traffic_info
+449	yes, please give me the address.	address&poi
+450	i need a coffee shop within 4 miles. 	distance&poi_type
+451	is there a quickest route to reach it?	address&distance&poi&poi_type&traffic_info
+452	find me a hotel that is near my location.	distance&poi_type
+453	please pick a quick route to go there	distance
+454	where can i buy groceries?	poi_type
+455	what's the temperature going to be this week	date&weather_attribute
+456	fresno	location
+457	what is the weather going to be like today and tomorrow	date
+458	seatlle, will it be windy?	location&weather_attribute
+459	get me directions to the nearest starbucks	distance&poi
+460	then let's go there car! please send me its address on screen and pick the fastest route for me	distance
+461	is it gonna be dry in redwood city in next few days?	date&location&weather_attribute
+462	the next few days please	date
+463	which one is gonna be the highest temperature in fresno this week?	date&location&weather_attribute
+464	schedule a swimming activity with tom on the 6th of this month at 2pm.	date&event&party&time
+465	i have an eye doctors appointment on the 12th at 5 pm	date&event&time
+466	take me to the mall to buy some clothes	poi_type
+467	yes.	poi
+468	i wish to find a route with no traffic but it's okay, please send the info on the gps, thanks!	traffic_info
+469	i need the address to my friend's house please. 	poi_type
+470	could you please send on my screen the fastest route to get there?	address&poi&poi_type&traffic_info
+471	find me a tea house	poi&poi_type
+472	is there an alternate route, and is this the quickest way there?	traffic_info
+473	when is the football game	date&event&time
+474	what's the temperature going to be for the week	weather_attribute
+475	durham	location
+476	car please give me the address of a good pizza restaurant in the shortest possible distance	distance&poi_type
+477	nice, what's the address there?	distance&poi&poi_type
+478	find the nearest shopping mall on the map	distance&poi_type
+479	let's go to ravenswood then. 	distance&poi&poi_type
+480	where can i get groceries?	poi_type
+481	okay, tell me the quickest route there.	traffic_info
+482	i want tea.	poi_type
+483	yes, what is the address?	poi
+484	take me to a place where i can get some hot tea	poi_type
+485	is there an alternate route with no traffic?	traffic_info
+486	directions to nearest barista	distance&poi_type
+487	is there another coffee shop that situated on a route with no traffic?	poi_type&traffic_info
+488	schedule an appointment for yoga	event
+489	when is the next cloudy day	weather_attribute
+490	manhattan, please. will it be cloudy on monday?	date&location&weather_attribute
+491	what's the weather forecast for tomorrow	date
+492	will it be hot in atherton tomorrow?	date&location&weather_attribute
+493	are there clear skies in the forecast today	date&weather_attribute
+494	i would like to know about san jose.	location
+495	closest coffee	distance&poi_type
+496	please direct me there via the shortest distance. 	distance
+497	is it going to be windy in san francisco tomorrow?	date&location&weather_attribute
+498	please let me know the weather forecast for tomorrow	date
+499	los angeles.	location
+500	please give me information about my conference. 	event
+501	what time is my meeting tomorrow and what is the agenda	date&event
+502	thanks	agenda&event&time
+503	schedule a lab appointment at 6 pm on august 3. alex is coming along	date&event&party&time
+504	is there snow in the forecast for the week	date&weather_attribute
+505	i need it for san jose.	date&location&weather_attribute
+506	can you tell me the next day that i have an appointment with the eye doctor	agenda&event
+507	when's the football activity and who's attending?	event
+508	set a reminder for a football activity at 10 am, on friday, with tom. 	date&event&party&time
+509	please give the directions to a nearby hospital. 	distance&poi_type
+510	and how is the traffic?	distance&poi&poi_type&traffic_info
+511	could you give me the address and directions via a quick route?	distance
+512	set reminder for doctor's appointment for the tenth	date&event
+513	give me directions to the closest shopping mall	distance&poi_type
+514	is the route to town and county shopping center the fastest?	distance
+515	car what is the temperature going to be today and tomorrow	date&weather_attribute
+516	grand rapids.	location
+517	where can i get coffee?	poi_type
+518	is that the shortest route available?	distance
+519	is it going to snow today	date&weather_attribute
+520	please check for oakland.	location
+521	what day is the swimming party and who will be attending?	event
+522	what time is my lab appointment and who will be attending?	event
+523	what is a good chinese restaurant?	poi_type
+524	the nearby one please	distance
+525	is that the fastest option?	distance
+526	okay great, please set the navigation to take me there.	address
+527	what is the date and time of my next meeting and who will be attending it?	event
+528	check today's forecast for rain	date&weather_attribute
+529	fresno thanks	location
+530	i need to find out the date and time for my swimming activity! 	event
+531	search today's forecast	date&weather_attribute
+532	will it be humid in oakland today?	date&location&weather_attribute
+533	schedule a meeting at 6 pm on the 5th of this month with boss to go over quarterly report.	agenda&date&event&party&time
+534	what's the weather like in grand rapids	location
+535	i would like to know the weather for friday.	date
+536	what is the weather like in new york city	location
+537	yes, today's weather report please.	date&location
+538	is it raining today	date&weather_attribute
+539	i need it for new york.	location
+540	remind me about my lab appointment	event
+541	my doctor's appointment is at 7pm on monday the 1st. 	event&time
+542	please give me the address and directions to home within 5 miles of here, avoiding all heavy traffic. 	poi&traffic_info
+543	is it snowing in redwood city right now?	date&location&weather_attribute
+544	but it's not snowing? 	date&location&weather_attribute
+545	take me to the mall to buy some clothes	poi_type
+546	i am guessing ravenswood would be faster. let's go there. 	distance&poi&poi_type
+547	what is the date and time for my yoga activity?	event
+548	navigate home	poi_type
+549	okay, thank you	address&poi&poi_type
+550	i'm in the mood for some tea can you show me directions to the nearest cafe	distance&poi_type
+551	hope it doesn't have any traffic.	traffic_info
+552	remind me about tennis at 10am at the end of march with martha	event&party&time
+553	just set it for the end of march	date&event
+554	please give me the address and directions via the shortest distance to the nearest pizza place. 	distance&poi_type
+555	yes, please show me the route with the shortest distance, thank you!	distance&poi
+556	give me a location to a local parking lot	poi_type
+557	yes and please provide a quick route to get there. 	distance
+558	what is the forecast for the next 7 days	date
+559	cleveland, will it be windy?	location&weather_attribute
+560	show me directions to the nearest grocery store	distance&poi
+561	pick the fastest route and with least traffic, then send the address on my screen please	traffic_info
+562	schedule a conference with the executive team for the 15th of this month at 9am.	date&event&party&time
+563	make an appointment to reserve conference room 100 later this week for a meeting	agenda&event&room
+564	monday at 3pm.	date&time
+565	is there supposed to be a blizzard in brentwood on friday?	date&location&weather_attribute
+566	address to the gas station 	poi_type
+567	ok, please give me directions via a route that avoids all heavy traffic. 	traffic_info
+568	get me directions to the nearest starbucks	poi&traffic_info
+569	yes please.	poi_type
+570	yes please. 	poi
+571	remind me of the time for today's dinner	date&event&time
+572	remind me that i need to get my shot on the 12th at about 5 pm	date&event&time
+573	what is the weather today	date
+574	i want to know if it is raining in alhambra today	date&location&weather_attribute
+575	send me to the nearest gas station	distance&poi_type
+576	what will be the highest temperature in downtown chicago on tuesday?	date&location&weather_attribute
+577	is it misty in oakland now?	date&location&weather_attribute
+578	give me directions to nearest mall	distance&poi_type
+579	is it gonna be dry in carson on sunday?	date&location&weather_attribute
+580	what time and day is my doctor's appointment on	event
+581	what will the temperature be for the next week	date&weather_attribute
+582	san mateo.	location
+583	i need to schedule a meeting	event
+584	san francisco	location
+585	car i'm desiring to eat pizza, please pick a restaurant around here and avoid all heavy traffic	poi_type&traffic_info
+586	i need the address of a the shopping center that i can get to the quickest from here	distance&poi_type
+587	yes, please, just pick the quickest route and let's go there!	distance&poi
+588	what is today's forecast	date
+589	please check for boston.	location
+590	car i need to get home, it should be near me, please highlight its position on the map	poi_type
+591	avoid all heavy traffic and let's go there, thank you!	traffic_info
+592	what is the forecast for today and tomorrow	date
+593	will it be overcast in downtown chicago today or tomorrow?	date&location&weather_attribute
+594	is it going to be cloudy in the next 7 days	date&weather_attribute
+595	set a reminder for my daughter's swimming lessons	event
+596	i need it to be set for 7 pm on the 1st.	date&time
+597	i have a lab appointment with alex at 2 at the end of march	date&event&party&time
+598	will it snow this week	date&weather_attribute
+599	cleveland	date&location&weather_attribute
+600	what hospital is nearby?	distance&poi_type
+601	which one is quickest to reach?	distance
+602	is it gonna rain in camarillo today and tomorrow?	date&location&weather_attribute
+603	car is it going to snow today	date&weather_attribute
+604	durham.	location
+605	schedule my 10 am dentist appointment on friday with my father.	date&event&party&time
+606	what will the temperature be for the next week	date&weather_attribute
+607	i would like the temperature for alhambra please	location&weather_attribute
+608	where can i get groceries?	poi_type
+609	schedule a yoga activity at 9am with my sister	event&party&time
+610	no, schedule my yoga activity for today.	date&event
+611	i need directions to a grocery store	poi_type
+612	are there clear skies in los angeles today?	date&location&weather_attribute
+613	will it be hot in inglewood over the next few days?	date&location&weather_attribute
+614	where does my friend live? 	address&poi&poi_type
+615	is my doctors appointment on tuesday or wednesday	event
+616	please give me the address and directions via a route that avoids all heavy traffic to a grocery store. 	poi&traffic_info
+617	mmm, i understand.. then let's go there, thank you car!	poi
+618	what's the weather like in downtown chicago	location
+619	wednesday, please. is it gonna snow?	date&weather_attribute
+620	is it going to rain today	date&weather_attribute
+621	downtown chicago, please	date&location&weather_attribute
+622	is it going to snow today	date&weather_attribute
+623	inglewood please.	location
+624	is snow forecasted this week	date&weather_attribute
+625	manhattan.	location
+626	can you give me directions to the nearest hotel	distance&poi_type
+627	put my eye doctor appointment into the calendar it's tomorrow at 3 pm and remind me 2 hours before	date&event&time
+628	what's the weather like in new york city	location
+629	will it drizzle on tuesday?	date&location&weather_attribute
+630	set a reminder for dinner on august 8th at 3pm with my aunt.	date&event&party&time
+631	i'm looking for some takeout chinese food	poi_type
+632	please give me an address and directions via the fastest route to a local grocery store	poi_type&traffic_info
+633	i need directions to my house and avoid all heavy traffic	poi&poi_type&traffic_info
+634	what will the weather be like tomorrow	date
+635	will it drizzle in menlo park?	location&weather_attribute
+636	set meeting for saturday 11am with the boss. 	event&party&time
+637	set a reminder for tennis with ana at 9am on the 12th of this month.	date&event&party&time
+638	please give me an address and directions by the fastest route to a rest stop nearby. 	distance&poi_type&traffic_info
+639	yes. 	poi
+640	give me the nearest coffee shop. 	distance&poi_type
+641	what's the address? i guess it will have to do. 	distance&poi&poi_type
+642	is it gonna be warm in menlo park on monday?	date&location&weather_attribute
+643	what time is my lab appointment and who is coming?	event
+644	show me directions to the nearest grocery store	distance&poi_type
+645	yes i guess. program the address and let's get going. 	poi
+646	what's the address of the store, please? please direct me via a quick route. 	traffic_info
+647	set reminder for tennis lesson on august 12th at 4:50 pm	date&event&time
+648	please schedule a swimming activity on sunday at 4pm with my brother.	date&event&party&time
+649	check out the seven day forecast to see if it will be foggy in durham	date&location&weather_attribute
+650	what time is my meeting at	event
+651	what is the weather next week in new york	date&location
+652	will it be windy in new york anytime this week?	date&location&weather_attribute
+653	find directions to home	poi&poi_type
+654	give me the weekly weather forecast	date
+655	in danville, will it be dry this week?	date&location&weather_attribute
+656	will it be misty in brentwood today and tomorrow?	date&location&weather_attribute
+657	what is the lowest weekend temperature in oakland?	date&location&weather_attribute
+658	where can i get chinese food?	poi_type
+659	from the two day forecast what will be the highest temperature in manhattan?	date&location&weather_attribute
+660	when is the next cloudy day	weather_attribute
+661	san francisco.	location
+662	schedule a football activity with ana on the 6th at 7pm.	date&event&party&time
+663	car please find for me the quickest route to get to some coffee or tea place	distance&poi_type
+664	what is the address?	address
+665	car i'm desiring to eat chinese!	poi_type
+666	which is closer?	distance
+667	please pick the best route for me and let's go there!	distance
+668	is there going to be frost in los angeles on tuesday? 	date&location&weather_attribute
+669	schedule a new meeting	event
+670	it is today at 1 pm with hr to go over the budget	agenda&party&time
+671	will it be hot in exeter or the next few days?	date&location&weather_attribute
+672	will it be drizzle in camarillo tomorrow?	date&location&weather_attribute
+673	find pizza.	poi_type
+674	is any of them within 5 miles from our position?	distance&poi_type
+675	then let's go at pizza my heart, please pick a route with no traffic!	distance&poi&poi_type&traffic_info
+676	i'm looking for a place to eat can you show me directions to the nearest fast food restaurant	distance&poi_type
+677	set a reminder for my conference call tomorrow	date&event
+678	thank you.	date&event
+679	what's the forecast going to be for today and tomorrow	date&weather_attribute
+680	brentwood, please: there will be any blizzard?	location&weather_attribute
+681	will it be misty on friday in exeter?	date&location&weather_attribute
+682	give me directions to the nearest place where i can have a cup of tea	distance&poi_type
+683	yes, please, and also pick the fastest route for me!	distance&poi
+684	what is the forecast for the city this week	date
+685	can you tell me if it will be cloudy in san francisco this week?	date&location&weather_attribute
+686	where does my friend live?	poi&poi_type
+687	how far away am i now from the house?	distance&poi_type
+688	august 3rd at 11am	date&time
+689	tell me when my dinner reservations are scheduled for	date&event&time
+690	i wanna go to my friends' house, it should be nearby, can you show me their position on the map?	distance&poi_type
+691	the current weather in san mateo.	date&location
+692	what is the date and time of my next football activity?	event
+693	put my optometrist appointment in my calendar	event&room
+694	i'm looking for some takeout chinese food	poi_type
+695	yes where is it?	poi_type
+696	please direct me via the route that avoids all heavy traffic.	traffic_info
+697	is it raining next week	date&weather_attribute
+698	san francisco	location
+699	car what is the date and time of my next dentist appointment	date&event&time
+700	when am i scheduled for tennis lessons	event
+701	give me directions to the nearest starbucks	distance&poi
+702	are there any other coffee shops with the least traffic?	poi&traffic_info
+703	please direct me there, thank you.	address&distance&poi&poi_type&traffic_info
+704	give me a quick route to a grocery store	distance&poi_type
+705	yes, what is the address?	poi
+706	i want the quickest one available please. 	distance
+707	what's the temperature in city	location&weather_attribute
+708	redwood city, what is the temperature for this week?	date&location&weather_attribute
+709	set a reminder for yoga activity at 11 am on the 4th with martha.	date&event&party&time
+710	i'm looking for a place to shop for clothes that is around me. can you find such a place?	poi_type
+711	oh yes that sounds great. 	poi
+712	i need a gas station	poi_type
+713	where can i go shopping?	poi_type
+714	which is closer?	distance
+715	what time am i scheduled to play tennis at	agenda&event
+716	is it snowing out	weather_attribute
+717	check to see if it'll be snowing in boston during the week.	date&location&weather_attribute
+718	schedule dinner with martha on the 15th of this month at 10am.	date&event&party&time
+719	what is the date of our dinner and who is attending?	event
+720	where can i go shopping?	poi_type
+721	i want to go to the ravenwood shopping center, give me the address and then directions with avoiding heavy traffic	poi&traffic_info
+722	what time is my meeting and what is the agenda, also who is attending?	event
+723	set a reminder for a doctor's appointment at 2pm on monday the 1st with marie.	date&event&party&time
+724	where can i get groceries?	poi_type
+725	what is the address of traders joe's and give me directions with the fastesr route	distance&poi
+726	when is my tennis?	event
+727	what's the weather like in new york city	location
+728	thanks, i would like to know if it will be windy n new york on tuesday please.	date&location&weather_attribute
+729	where is a restaurant	poi_type
+730	please tell me the one with the quickest route and the details of the location	traffic_info
+731	what is the nearby hospital?	distance&poi_type
+732	please pick the quickest route to go there and send me the address on my map	distance
+733	is it going to be raining this weekend	date&weather_attribute
+734	alhambra please.	location
+735	how's the weather in new york	location
+736	will it be humid on friday?	date&weather_attribute
+737	set an optometrist appointment for saturday. 	date&event
+738	at 3 pm and my sister is joining	party&time
+739	can you please find me the time, date, and what is planned for the next meeting i have scheduled in my calendar?	event
+740	can you get me a route that avoids all heavy traffic?	traffic_info
+741	yes get me the address.	poi
+742	give me directions to the nearest place to get to eat	distance&poi_type
+743	that's fine. please give me the address and directions via the quickest route. 	distance
+744	directions to the mall	poi_type
+745	can you give me a route which is fast please. 	distance
+746	who is going to be at the meeting?	event
+747	both. thanks	event
+748	please set reminder for the 8th at 5 pm for yoga. my aunt is coming along	date&event&party&time
+749	what are some nearby hotels	poi_type
+750	let's try travelers lodge what's the address and how's the traffic?	distance&poi&poi_type&traffic_info
+751	what's the forecast for the city this week	date&location
+752	exeter, please. will it be misty anytime during the week?	location&weather_attribute
+753	search for nearest fast food restaurants	distance&poi_type
+754	what's the weather supposed to be like in new york city this week	date&location
+755	will be dry any day this week?	date&location&weather_attribute
+756	when is the date and time of my dentist appointment?	event
+757	on sunday in san jose will there be a blizzard?	date&location&weather_attribute
+758	what time is my next yoga activity and who will be attending?	event
+759	what is the scheduled time for the yoga activity on thursday?	date&event
+760	show me this week's forecast	date
+761	is it going to snow this week in chicago?	location&weather_attribute
+762	today in menlo park, will it be misty?	date&location&weather_attribute
+763	take me to a hospital.	poi_type
+764	is it the quickest option?	distance
+765	can you kindly schedule a meeting at 4pm, later this week with infrastructure to discuss dress code?	agenda&date&event&party&time
+766	thursday.	date
+767	set reminder for conference at 9am on wednesday with infrastructure team.	date&event&party&time
+768	i'm in need of a pizza restaurant. 	poi_type
+769	they sound great! please pick a quick route to pizza hut, thank you!	address&distance&poi
+770	tell me when my next tennis game is	event
+771	set reminder for lab check up	agenda&event
+772	what time and date is my lab appointment? 	event
+773	set a reminder for dinner on august 3rd at 9pm with my brother. 	date&event&party&time
+774	what is the date and time of my next lab appointment?	event
+775	navigate to the nearest coffee shop	distance&poi_type
+776	please send me the address on screen and pick the quickest route for me, thank you!	distance&poi
+777	where is a hospital in the area?	poi_type
+778	add meeting in conference room 102 the calendar	event&room
+779	the meeting is at 2pm on august 3rd with sales team to discuss the merger.	agenda&date&event&party&room&time
+780	will it be overcast in san mateo over the next 48 hours?	date&location&weather_attribute
+781	what day and time is my yoga activity?	event
+782	find me a hotel room for tonight	poi
+783	which is the quickest?	distance
+784	yes, please, and set the navigation there too	distance&poi&poi_type&traffic_info
+785	what time is the football game this week	event
+786	find me the fastest route to the nearest rest stop around	distance&poi_type&traffic_info
+787	yes please. thanks for the help. 	poi
+788	would you give me the address please?	address
+789	please schedule a game of tennis with my friend for next week	date&event
+790	when is my doctor's appointment	event
+791	i'm not feeling well show me the fastest route to the nearest hospital	distance&poi_type&traffic_info
+792	where is the nearest gas station?	distance&poi_type
+793	on friday will there be frost in menlo park?	date&location&weather_attribute
+794	what time is my football activity and who is attending?	event
+795	what time is the football game	event
+796	is it going to rain sometime this week	date&weather_attribute
+797	menlo park.	location
+798	please give me the address and directions via the fastest route to a hospital nearby. 	distance&poi_type
+799	take me to the closest starbucks	distance&poi
+800	do you have any local coffee shops?	distance&poi_type
+801	pick the fastest way and let's go there, thank you!	distance&poi
+802	what is the weather like in new york this week	date&location
+803	i want to find out if it will rain this week	date&weather_attribute
+804	what is my friend's address?	poi_type
+805	how's the traffic?	traffic_info
+806	i need a rest stop.	poi_type
+807	farther than i wish but patience.. please send me the quickest way to get there, thank you!	poi
+808	please give me a quick route. thank you	address&distance&poi&poi_type&traffic_info
+809	what is my friend's house's address?	poi_type
+810	i have an appointment at 1pm on wednesday with alex	date&event&party&time
+811	will it drizzle in oakland in the next week?	date&location&weather_attribute
+812	where is my home?	poi_type
+813	yes, yes, right, i need my morning coffee.. please pick the shortest distance to go back home!	distance&poi&poi_type
+814	find me a nearby coffee shop where i can sit and have some coffee	distance&poi_type
+815	where is the closest rest stop?	distance&poi_type
+816	do you have for me a route with no traffic to reach it?	traffic_info
+817	yes i need to rest. 	poi
+818	set a reminder for my yoga class on the 12th	date&event
+819	what's the temperature in the city	location&weather_attribute
+820	san mateo.	location
+821	the whole week.	date
+822	what time is the optometrist appointment and who is going?	event
+823	the one with martha. thanks.	party
+824	will it rain next week	weather_attribute
+825	seattle.	location
+826	give me directions to the nearest restaurant	poi_type
+827	is it snowy in alhambra today?	date&location&weather_attribute
+828	what grocery stores are near?	distance&poi_type
+829	let's go there through the route with the shortest distance please	distance
+830	take me to the closest whole foods place i can buy groceries	distance&poi
+831	search hotels near me	poi_type
+832	give me the address of a rest stop nearby.	distance&poi_type
+833	what's the temperature going to be like today and tomorrow	date&weather_attribute
+834	seattle, please.	date&location&weather_attribute
+835	i need you to set a reminder for me to take my medicine. set it for 10 am, the 7th with jon, please. 	date&event&party&time
+836	what is my address?	poi_type
+837	find the nearest coffee shop	distance&poi_type
+838	ok, please direct me there via a route that avoids all heavy traffic. 	traffic_info
+839	how far away is it?	distance
+840	yes, please direct me via the route with least traffic.	address&distance&poi&poi_type&traffic_info
+841	next week will it be misty anytime in redwood city?	date&location&weather_attribute
+842	make an appointment with the dentist	event
+843	what day and time is my tennis activity?	event
+844	get me the weather report for this week	date
+845	i wanna know if it will rain in fresno	location&weather_attribute
+846	tell me the time of today's football game	event
+847	give me this week's high temperature	date&weather_attribute
+848	for compton please	location
+849	what time is my tennis match for this saturday	event
+850	does the forecast say it will snow	weather_attribute
+851	i would like information for compton.	location
+852	find directions to nearest starbucks	distance&poi
+853	yes.	poi
+854	yes please.	poi
+855	where can i get pizza?	poi_type
+856	then pick a quick route to get there, thank you!	distance&poi
+857	set a reminder about my swim meet next wednesday at 3 pm	date&event&time
+858	what route can i take home to avoid traffic	poi&poi_type&traffic_info
+859	ok, thanks for directions via a route with the least traffic. 	poi&poi_type&traffic_info
+860	give me directions to starbucks	poi
+861	please send me directions for the one closest to me.	distance&poi_type
+862	find a shopping mall that i can get to with the least amount of traffic.	poi_type&traffic_info
+863	what is the forecast for the city this week	date
+864	inglewood.	location
+865	is it supposed to snow today	date&weather_attribute
+866	oakland	location
+867	can you set a reminder for a yoga activity at 2pm on the 1st	date&event&time
+868	my sister is coming along, thanks. 	party
+869	find me chinese restaurants within 3 miles of my current location	distance&poi_type
+870	could you give me the address and directions to the restaurant via a route that avoids all heavy traffic?	poi_type&traffic_info
+871	please set the gps to go there, thank you!	address&distance&poi&poi_type&traffic_info
+872	where can i get a coffee?	poi_type
+873	schedule a doctor appointment with my brother for august 3rd at 10am.	date&event&party&time
+874	will it be dry in fresno today?	date&location&weather_attribute
+875	is there a chinese place that has no traffic on the way? 	poi_type&traffic_info
+876	yes, please!	poi
+877	what is the date of my next optometrist appointment and who will be attending?	event
+878	where is the local gas station?	poi_type
+879	yes please show me the route and avoid heavy traffic. 	poi&traffic_info
+880	yes please that sounds great. 	address&distance&poi&poi_type
+881	car i need a gas station to feed you: is there anything around here?	poi
+882	please ask siri to replace you and take me to the one with a quick route, thank you!	distance
+883	what day is my lab appointment and who is coming with? 	event
+884	i have a meeting on the 12th of august at 5:50 please remind me	date&event&time
+885	car i need to go back home, please pick the quickest way with no traffic	poi&traffic_info
+886	it's okay, just pick the quickest route to get there, thank you!	distance
+887	navigate me to the nearest hotel	distance&poi_type
+888	set gps for quickest available route.	distance
+889	what's the weather forecast for the next week	date
+890	san francisco	location
+891	start listening what will be the weather for the week	date
+892	san francisco	location
+893	schedule a dinner at 3pm on monday the 1st with alex.	date&event&party&time
+894	will the weather be stormy in san mateo over the next 7 days?	date&location&weather_attribute
+895	schedule a football activity with my mother for august 14th at 11am.	date&event&party&time
+896	currently are there clear skies in redwood city?	date&location&weather_attribute
+897	will it drizzle in camarillo tomorrow?	date&location&weather_attribute
+898	check forecast for today and tomorrow	date&weather_attribute
+899	san mateo please, find out the forecast for today and tomorrow. 	date&location
+900	schedule a blood test	event
+901	it is tomorrow at 1 pm. 	date&time

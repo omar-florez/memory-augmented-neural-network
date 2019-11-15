@@ -1,0 +1,15 @@
+pandas==0.24.2
+regex==2019.4.14
+h5py==2.9.0
+numpy==1.16.2
+tensorboard==1.13.1
+tensorflow==1.13.1
+tqdm==4.31.1
+requests==2.22.0
+sklearn
+Pillow>=2.9.0
+numpy>=1.9.2
+scipy>=0.15.1
+scikit-learn>=0.18
+matplotlib>=1.4.3
+pandas>=0.19

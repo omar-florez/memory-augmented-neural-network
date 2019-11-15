@@ -1,0 +1,19 @@
+{
+    "embedder_algo":"lstm",
+    "key_dim": 128,
+    "memory_size": "1024",
+    "choose_k": 20,
+    "batch_size":128,
+    "input_dim": 32,
+    "output_dim":133,
+    "data_dir":"data",
+    "dataset_name":"intent",
+    "model_name":"lth",
+    "seq_max_len":32,
+    "num_tables":5,
+    "num_epochs":20000,
+    "saved_folder":"./saved/figures/experiments",
+    "tensorboard_summary_folder": "/home/ubuntu/log_dir/summary",
+    "k_fold":1,
+    "experiment_name":"memory_size"
+}
